@@ -50,4 +50,5 @@ bool current = outputs.getState(3); // Lekérdezi az állapotát
 | `printStates()` | Soros portra kiírja az összes állapotot |
 | `getBitfield()` | Bitmező állapota stringben |
 | `getReversedBitfield()` | Bitmező fordított állapota stringben (LSB→MSB) |
+| `reverseBits()` | Belső bitmező megfordítása (LSB→MSB), (MSB→LSB). Valódi forgatás, a változás a belső tárolón történik! |
 | `getTypeStr()` | Dinamikus bitmező típusa |
