@@ -26,7 +26,7 @@ Másold a `MemoryOptimizedOutputs.h` és `MemoryOptimizedOutputs.cpp` fájlokat 
 ```
 
 ## 🔧 Használat
-[Wokwi example](https://wokwi.com/projects/428724545689331713)
+[Wokwi példa](https://wokwi.com/projects/428724545689331713)
 
 ```cpp
 #define OUTPUT_COUNT 16
