@@ -6,6 +6,7 @@
 
 ## 🔧 Fő jellemzők
 
+- ARDUINO környezethez!
 - Bármennyi kimenet kezelése (1 - 1000+ között)
 - Kimenetek be- és kikapcsolása
 - Kimenet állapotának lekérdezése
