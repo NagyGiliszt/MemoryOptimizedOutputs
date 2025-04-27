@@ -46,10 +46,10 @@ bool current = outputs.getState(3); // Lekérdezi az állapotát
 | `getState(uint8_t pin)` | A pin aktuális állapotának lekérdezése |
 | `toggle(uint8_t pin)` | A pin aktuális állapotának átbillentése |
 | `setAll(bool state)` | Az összes kimenet be-/kikapcsolása |
+| `reverseBits()` | Belső bitmező megfordítása (LSB→MSB), (MSB→LSB). Valódi forgatás, a változás a belső tárolón történik! |
 | `getRawData(uint8_t* buffer, size_t size)` | Bitmező lekérése LSB → MSB sorrendben |
 | `getRawDataReversed(uint8_t* buffer, size_t size)` | Bitmező lekérése fordított sorrendben (MSB → LSB) |
 | `printStates()` | Soros portra kiírja az összes állapotot |
 | `getBitfield()` | Bitmező állapota stringben |
 | `getReversedBitfield()` | Bitmező fordított állapota stringben (LSB→MSB) |
-| `reverseBits()` | Belső bitmező megfordítása (LSB→MSB), (MSB→LSB). Valódi forgatás, a változás a belső tárolón történik! |
 | `getTypeStr()` | Dinamikus bitmező típusa |
