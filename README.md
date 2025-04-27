@@ -50,6 +50,6 @@ bool current = outputs.getState(3); // Lekérdezi az állapotát
 | `getRawData(uint8_t* buffer, size_t size)` | Bitmező lekérése LSB → MSB sorrendben |
 | `getRawDataReversed(uint8_t* buffer, size_t size)` | Bitmező lekérése fordított sorrendben (MSB → LSB) |
 | `printStates()` | Soros portra kiírja az összes állapotot |
-| `getBitfield()` | Bitmező állapota stringben |
-| `getReversedBitfield()` | Bitmező fordított állapota stringben (LSB→MSB) |
+| `getBitfield()` | Bitmező állapota stringben (LSB→MSB) |
+| `getReversedBitfield()` | Bitmező fordított állapota stringben (MSB→LSB) |
 | `getTypeStr()` | Dinamikus bitmező típusa |
